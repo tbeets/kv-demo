@@ -7,6 +7,9 @@ Demo essential NATS KV features and extend demo to edge use-cases.
 * NATS CLI tool
 * Optional: NATS Cluster, NATS Supercluster, another NATS system configured as a Leafnode
 
+## Demo Environment
+![Image of demo environment](kv-demo.png "KV Demo Environment")
+
 ### Create a KV Store
 Let's create a KV Store (or bucket) called MENUBUCKET in which key values expire after 10 minutes and a history of up
 to 5 values is kept for a key.

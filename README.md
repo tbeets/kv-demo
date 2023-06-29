@@ -118,8 +118,8 @@ and benefit of NATS streaming data services.
 
 * KV Bucket is a stream
 * KV Key is a message (or messages with history > 1) in the stream with unique key subject
-* NATS Client Libraries provide a developer abstraction -- the Synadia-supported language types all support KV
-including .NET, Java, JavaScript/TypScript, Python, Go, Rust, and C
+* NATS Client Libraries provide a developer abstraction for KV -- the Synadia-supported language types all support KV
+including .NET, Java, JavaScript/TypeScript, Python, Go, Rust, and C
 * NATS CLI provides a command-line abstraction (using the NATS Client Library for Go)
 
 ### See the stream behind the bucket
